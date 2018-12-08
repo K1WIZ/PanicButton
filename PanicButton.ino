@@ -1,5 +1,6 @@
 /*
- * WiFi Emergency Panic Button
+ * WiFi Emergency Panic Button using ESP8266
+ * 
  * John Rogers
  *
  */
@@ -7,11 +8,11 @@
 #include <ESP8266WiFi.h>
 
 // Replace with your SSID and Password
-const char* ssid     = "MIND CONTROL BG";
-const char* password = "N1wilK1wiz";
+const char* ssid     = "MyNetwork";
+const char* password = "P@ssword";
 
 // Replace with your unique IFTTT URL resource
-const char* resource = "/trigger/panic_button/with/key/d-LRa5PJ5RmZAP7nOMoHWK";
+const char* resource = "/trigger/panic_button/with/key/someKey-324d23ec2cedwec";
 
 // How your resource variable should look like, but with your own API KEY (that API KEY below is just an example):
 //const char* resource = "/trigger/button_pressed/with/key/nAZjOphL3d-ZO4N3k64-1A7gTlNSrxMJdmqy";
