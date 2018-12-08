@@ -93,6 +93,7 @@ void makeIFTTTRequest() {
   }
   
   Serial.println("\nclosing connection");
+ // PROVIDE SOME VISUAL INDICATION MESSAGE WAS SENT BY LIGHTING LED
   digitalWrite(LED_BUILTIN, LOW);   // turn the LED on to provide visual confirmation
   delay(10000);                       // wait for 10 seconds
   digitalWrite(LED_BUILTIN, HIGH);  // turn off LED
